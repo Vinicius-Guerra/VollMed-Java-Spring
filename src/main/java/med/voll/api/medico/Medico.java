@@ -15,7 +15,7 @@ import med.voll.api.endereco.Endereco;
 @EqualsAndHashCode(of = "id")
 public class Medico {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Integer id;
     private String nome;
     private String email;
     private String telefone;
